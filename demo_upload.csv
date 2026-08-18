@@ -1,0 +1,8 @@
+roll_no,term,attendance,marks,gpa,assignment_completion,failed_subjects,earned_credits,expected_credits,required_credits
+CS2401001,2024-SEM1,95,88,8.5,90,0,30,30,30
+CS2401002,2024-SEM1,65,55,5.2,60,2,22,30,30
+CS2401003,2024-SEM1,80,72,7.0,85,0,28,30,30
+CS2401004,2024-SEM1,50,42,4.1,45,3,14,30,30
+CS2401005,2024-SEM1,88,79,7.9,80,0,26,30,30
+DEMO001,2024-SEM1,40,35,3.5,30,4,10,30,30
+DEMO002,2024-SEM1,92,85,8.1,95,0,30,30,30

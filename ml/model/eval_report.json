@@ -1,0 +1,58 @@
+{
+  "model_name": "RandomForest",
+  "model_version": "dropout-v1",
+  "features": [
+    "attendance",
+    "marks",
+    "gpa",
+    "assignment_completion",
+    "failed_subjects"
+  ],
+  "test_metrics": {
+    "accuracy": 0.8587,
+    "precision": 0.8434,
+    "recall": 0.784,
+    "f1": 0.8127,
+    "auc_roc": 0.9249
+  },
+  "confusion_matrix": [
+    [
+      301,
+      31
+    ],
+    [
+      46,
+      167
+    ]
+  ],
+  "val_metrics": {
+    "accuracy": 0.8713,
+    "precision": 0.8705,
+    "recall": 0.7887,
+    "f1": 0.8276,
+    "auc": 0.9175
+  },
+  "all_val_results": {
+    "LogisticRegression": {
+      "accuracy": 0.8566,
+      "precision": 0.8497,
+      "recall": 0.77,
+      "f1": 0.8079,
+      "auc": 0.9058
+    },
+    "RandomForest": {
+      "accuracy": 0.8713,
+      "precision": 0.8705,
+      "recall": 0.7887,
+      "f1": 0.8276,
+      "auc": 0.9175
+    },
+    "XGBoost": {
+      "accuracy": 0.8695,
+      "precision": 0.8586,
+      "recall": 0.7981,
+      "f1": 0.8273,
+      "auc": 0.9174
+    }
+  }
+}
